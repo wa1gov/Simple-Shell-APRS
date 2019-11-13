@@ -21,8 +21,6 @@ comment="$2"
 
 TOCALL=`printf "%-9s" $TOCALL`
 packet="${address}${TOCALL}:${comment}"
-## nc -C newengland.aprs2.net 14580 filter u/WA1GOV-1
-## user WA1GOV-1 pass 23218 vers shellmessage 1.0
 nc -C $serverHost $serverPort -q 5 <<END
 $login
 $packet
