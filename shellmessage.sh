@@ -12,7 +12,7 @@ fi
 
 callsign="xxxxxx-xx" # Change this to your callsign-ssid
 password="12345" # See http://apps.magicbug.co.uk/passcode/
-serverHost="newengland.aprs2.net" # See http://www.aprs2.net/APRServe2.txt
+serverHost="rotate.aprs2.net" # See http://www.aprs2.net/APRServe2.txt
 serverPort=14580 # Definable Filter Port
 address="${callsign}>APRS,TCPIP::"
 login="user $callsign pass $password vers shellmessage 1.0"

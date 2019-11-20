@@ -7,7 +7,7 @@
 callsign="xxxxxx-xx" # Change this to your callsign-ssid
 password="12345" # See http://apps.magicbug.co.uk/passcode/
 position="!4151.29N/07100.40WI" # See position report below
-serverHost="newengland.aprs2.net" # See http://www.aprs2.net/APRServe2.txt
+serverHost="rotate.aprs2.net" # See http://www.aprs2.net/APRServe2.txt
 comment="shellbeacon 1.0 by WA1GOV"
 
 serverPort=14580 # Definable Filter Port
